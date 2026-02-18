@@ -6,9 +6,9 @@ This repo is organized into:
 - `frontend/`: web UI
 - `backend/`: FastAPI API + AI orchestration layer
 
-## What’s in this repo (and what isn’t)
+## What’s in this repo
 
-Some older docs mention Next.js and an `ai-model/` module. In **this** repo:
+In **this** repo:
 - The frontend is **Vite + React Router** (not Next.js).
 - There is **no `ai-model/` folder**; AI logic lives under `backend/`.
 
@@ -35,7 +35,7 @@ Some older docs mention Next.js and an `ai-model/` module. In **this** repo:
 
 ### AI / retrieval (in backend)
 - **Deep learning**: PyTorch
-- **Object detection**: Ultralytics YOLO
+- **Object detection**: YOLOS via HuggingFace transformers library
 - **Image processing**: OpenCV, Pillow
 - **Embeddings / multimodal**: Transformers + OpenAI CLIP (GitHub install)
 - **Vector search**: FAISS (CPU via `faiss-cpu`)
@@ -104,7 +104,7 @@ python jobs/user_profile_summary_job_scheduler.py
 ## Docs / links
 
 - **Contributing / running notes**: `Contributing.md`
-- **Slides**: `./assets/Raise%20Your%20Hackathon%20Team%20Jroq-Prosus.pdf`
+- **Slides**: `https://storage.googleapis.com/lablab-static-eu/presentations/submissions/cmcuh6vg3000p3b6rqjuhzv7a/cmcuh6vg3000p3b6rqjuhzv7a-1751982593872_zj22vd0blj.pdf`
 
 ## Deployment note
 
